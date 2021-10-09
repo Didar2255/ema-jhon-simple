@@ -17,9 +17,9 @@ const OrderReview = () => {
     }
     const history = useHistory()
     const hendelPlace = () => {
-        history.push('/placeorder')
-        setCarts([])
-        clearTheCart()
+        history.push('/shipping')
+        // setCarts([])
+        // clearTheCart()
     }
     return (
         <div className='shop-continer'>
@@ -32,7 +32,7 @@ const OrderReview = () => {
             </div>
             <div>
                 <Cart cart={carts}>
-                    <button onClick={hendelPlace}>Place Order</button>
+                    <button className='btn-regular' onClick={hendelPlace}>Proceed to Shipping</button>
                 </Cart>
             </div>
 

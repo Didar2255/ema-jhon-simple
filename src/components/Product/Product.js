@@ -24,8 +24,8 @@ const Product = (props) => {
                     fullSymbol="fas fa-star icon-color"
                     readonly
                 ></Rating>
-                <br />
-                <button onClick={() => props.button(props.product)}> <FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
+                <br /><br />
+                <button className='btn-regular' onClick={() => props.button(props.product)}> <FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
             </div>
 
         </div>

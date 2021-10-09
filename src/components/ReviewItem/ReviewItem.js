@@ -9,7 +9,7 @@ const ReviewItem = (props) => {
                 <h3 className='product-name'>{name}</h3>
                 <p>{price}</p>
                 <p>{quentity}</p>
-                <button onClick={() => hendelRemove(key)}>Remove Item</button>
+                <button className='btn-regular' onClick={() => hendelRemove(key)}>Remove Item</button>
             </div>
         </div>
     );

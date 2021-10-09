@@ -84,7 +84,7 @@ const Shop = () => {
                         cart={cart}
                     >
                         <Link to='/orderReview'>
-                            <button>Review order</button>
+                            <button className='btn-regular'>Review order</button>
                         </Link>
                     </Cart>
 
