@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop-continer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-right: 10px;
+    margin-left: 200px;
+}
+.serach-container{
+    background-color: rgb(51, 50, 50);
+    line-height: 70px;
+    text-align: center;
+}
+.input-field{
+    width: 60%;
+    padding: 5px;
+}
+.icon{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}

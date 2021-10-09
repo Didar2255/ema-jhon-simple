@@ -1,0 +1,13 @@
+.cart-order{
+    text-align: center;
+}
+.cart-container{
+    background-color: rgb(233, 239, 245);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px #b1b1b1;
+}
+.Cart-btn{
+  margin-left: 50px;
+}
